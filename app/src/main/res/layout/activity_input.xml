@@ -11,6 +11,7 @@
     <Button
         android:id="@+id/btn_ok_AI"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/view_height" />
+        android:layout_height="@dimen/view_height"
+        android:text="@string/setValue_AI"/>
 
 </LinearLayout>

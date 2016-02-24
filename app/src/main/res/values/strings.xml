@@ -2,4 +2,6 @@
     <string name="app_name">TM_homework04</string>
     <string name="switch_yes">ON</string>
     <string name="switch_no">OFF</string>
+    <string name="takeResult_AM">Calculate</string>
+    <string name="setValue_AI">OK</string>
 </resources>
