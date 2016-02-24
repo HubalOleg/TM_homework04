@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TM_homework04</string>
+    <string name="switch_yes">ON</string>
+    <string name="switch_no">OFF</string>
+</resources>
