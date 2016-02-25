@@ -2,10 +2,10 @@
 
     <!-- Base application theme. -->
     <style name="BlackTheme" parent="@android:style/Theme.Holo">
-        <item name="android:buttonStyle">@style/BlackButtonStyle</item>
+        <!--<item name="android:buttonStyle">@style/BlackButtonStyle</item>-->
     </style>
     <style name="WhiteTheme" parent="@android:style/Theme.Holo.Light">
-        <item name="android:buttonStyle">@style/WhiteButtonStyle</item>
+        <!--<item name="android:buttonStyle">@style/WhiteButtonStyle</item>-->
     </style>
     <style name="TextViewStyle">
         <item name="android:maxLength">3</item>
@@ -22,11 +22,11 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <style name="WhiteButtonStyle">
+    <style name="WhiteButtonStyle" parent="android:Widget.Button">
         <item name="android:background">@drawable/white_button_background</item>
         <item name="android:gravity">center</item>
     </style>
-    <style name="BlackButtonStyle">
+    <style name="BlackButtonStyle" parent="android:Widget.Button">
         <item name="android:background">@drawable/black_button_background</item>
         <item name="android:gravity">center</item>
     </style>
